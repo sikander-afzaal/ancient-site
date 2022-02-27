@@ -46,7 +46,7 @@
 }
 .desc {
   margin: 0.5rem 0rem;
-  max-width: 60%;
+  max-width: 50%;
   object-fit: contain;
 }
 @media screen and (max-width: 1093px) {
@@ -55,7 +55,7 @@
   }
   .desc {
     margin: 0.5rem 0rem;
-    max-width: 90%;
+    max-width: 80%;
     object-fit: contain;
   }
   .absolute2 {
