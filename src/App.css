@@ -112,14 +112,8 @@
   object-fit: contain;
   margin-bottom: 2rem;
 }
-.smaller {
-  max-width: 15%;
-}
-.small {
-  max-width: 20%;
-}
-.small2 {
-  max-width: 25%;
+.adjust {
+  max-width: 63%;
 }
 .desc {
   margin: 0.5rem 0rem;
@@ -128,10 +122,10 @@
   padding-left: 6rem;
 }
 .max-50 {
-  max-width: 50%;
+  max-width: 43%;
 }
 .max-52 {
-  max-width: 53%;
+  max-width: 46%;
 }
 .max-80 {
   max-width: 65%;
