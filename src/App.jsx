@@ -61,26 +61,26 @@ function App() {
           <img className="desc" src={img3} alt="" />
         </div>
         <div className="section1">
-          <img className="title small2" src={img5} alt="" />
+          <img className="title" src={img5} alt="" />
           <img className="desc" src={img6} alt="" />
         </div>
         <div className="section1">
-          <img className="title smaller" src={img7} alt="" />
+          <img className="title" src={img7} alt="" />
           <img className="desc" src={img8} alt="" />
         </div>
         <div className="section1">
-          <img className="title smaller" src={img9} alt="" />
+          <img className="title" src={img9} alt="" />
           <img className="desc" src={img10} alt="" />
         </div>
         <div className="section1">
-          <img className="title smaller" src={img11} alt="" />
+          <img className="title" src={img11} alt="" />
           <img className="desc max-50" src={img12} alt="" />
           <img className="desc" src={img13} alt="" />
           <img className="desc max-50" src={img14} alt="" />
           <img className="desc" src={img15} alt="" />
         </div>
         <div className="section1">
-          <img className="title small" src={img16} alt="" />
+          <img className="title" src={img16} alt="" />
           <img className="desc" src={img17} alt="" />
           <img className="desc" src={img18} alt="" />
           <img className="desc" src={img19} alt="" />
