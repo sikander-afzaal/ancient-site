@@ -27,9 +27,27 @@ import side3 from "./Assets/Layer 3.png";
 import side4 from "./Assets/Layer 4.png";
 import side5 from "./Assets/Layer 5.png";
 import side6 from "./Assets/Layer 6.png";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
+import opensea_icon from "./Assets/opensea-icon.svg";
 function App() {
   return (
     <div className="App">
+      <div className="navbar">
+        <div className="left-navbar">
+          <a href="#" className="nav-link">
+            <img src={opensea_icon} alt="" />
+          </a>
+          <a href="#" className="nav-link">
+            <FaTwitter />
+          </a>
+          <a href="#" className="nav-link">
+            <FaDiscord />
+          </a>
+        </div>
+        <div className="right-navbar">
+          <button className="connect">Connect Wallet</button>
+        </div>
+      </div>
       <img src={side} alt="" className="absolute" />
       <img src={side2} alt="" className="absolute2" />
       <img src={side3} alt="" className="absolute3" />
@@ -43,11 +61,11 @@ function App() {
           <img className="desc" src={img3} alt="" />
         </div>
         <div className="section1">
-          <img className="title" src={img5} alt="" />
+          <img className="title small2" src={img5} alt="" />
           <img className="desc" src={img6} alt="" />
         </div>
         <div className="section1">
-          <img className="title" src={img7} alt="" />
+          <img className="title smaller" src={img7} alt="" />
           <img className="desc" src={img8} alt="" />
         </div>
         <div className="section1">
@@ -62,7 +80,7 @@ function App() {
           <img className="desc" src={img15} alt="" />
         </div>
         <div className="section1">
-          <img className="title smaller" src={img16} alt="" />
+          <img className="title small" src={img16} alt="" />
           <img className="desc" src={img17} alt="" />
           <img className="desc" src={img18} alt="" />
           <img className="desc" src={img19} alt="" />

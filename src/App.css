@@ -8,6 +8,46 @@
   position: relative;
   overflow-y: visible;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+  background-color: black;
+  height: 70px;
+}
+.left-navbar {
+  padding-left: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+.left-navbar a {
+  color: white;
+  font-size: 1.6rem;
+}
+.right-navbar {
+  padding-right: 4rem;
+}
+.connect {
+  font-size: 1.2rem;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 25px;
+  background-color: transparent;
+  transition: all 0.35s ease-in-out;
+}
+.connect:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 .container {
   display: flex;
@@ -20,7 +60,7 @@
 }
 .absolute {
   right: 0;
-  top: 2%;
+  top: 5%;
   position: absolute;
   max-width: 30%;
 }
@@ -70,7 +110,13 @@
   margin-bottom: 2rem;
 }
 .smaller {
+  max-width: 15%;
+}
+.small {
   max-width: 20%;
+}
+.small2 {
+  max-width: 25%;
 }
 .desc {
   margin: 0.5rem 0rem;
@@ -88,12 +134,13 @@
 }
 @media screen and (max-width: 835px) {
   .absolute {
-    top: 4%;
+    top: 5%;
+    max-width: 35%;
   }
 }
 @media screen and (max-width: 761px) {
   .absolute {
-    top: 6%;
+    top: 9%;
     max-width: 25%;
   }
   .header {
@@ -121,14 +168,14 @@
     max-width: 15%;
   }
   .absolute3 {
-    top: 43%;
+    top: 45%;
   }
   .absolute4 {
     display: none;
   }
   .absolute5 {
     right: 0%;
-    top: 69%;
+    top: 77%;
     position: absolute;
     max-width: 17%;
   }
@@ -162,17 +209,30 @@
     display: none;
   }
   .absolute3 {
-    top: 46%;
+    top: 48.5%;
     max-width: 25%;
   }
   .absolute6 {
     margin-top: -2rem;
     max-width: 50%;
   }
+  .left-navbar {
+    gap: 1rem;
+    padding-left: 1rem;
+  }
+  .right-navbar {
+    padding-right: 1rem;
+  }
 }
 @media screen and (max-width: 497px) {
   .absolute {
-    top: 7%;
+    top: 9.5%;
+    max-width: 30%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .absolute {
+    top: 11%;
     max-width: 30%;
   }
 }
