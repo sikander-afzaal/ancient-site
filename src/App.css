@@ -268,10 +268,13 @@
 }
 @media screen and (max-width: 531px) {
   .max-52 {
-    max-width: 83% !important;
+    max-width: 64% !important;
   }
   .header {
-    max-width: 70%;
+    max-width: 56%;
+  }
+  .max28 {
+    max-height: 28px !important;
   }
   .container {
     width: 100%;
@@ -288,7 +291,10 @@
     padding-left: 1rem;
   }
   .max-50 {
-    max-width: 80%;
+    max-width: 60%;
+  }
+  .adjust {
+    max-width: 82% !important;
   }
   .absolute2,
   .absolute5,

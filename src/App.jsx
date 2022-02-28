@@ -62,7 +62,7 @@ function App() {
           <img className="desc" src={img3} alt="" />
         </div>
         <div className="section1">
-          <img className="title" src={img5} alt="" />
+          <img className="title max28" src={img5} alt="" />
           <img className="desc" src={img6} alt="" />
         </div>
         <div className="section1">
