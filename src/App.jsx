@@ -9,6 +9,7 @@ import img6 from "./Assets/6.png";
 import img7 from "./Assets/7.png";
 import img8 from "./Assets/8.png";
 import img9 from "./Assets/9.png";
+import img22 from "./Assets/10.png";
 import img10 from "./Assets/11.png";
 import img11 from "./Assets/12.png";
 import img12 from "./Assets/13.png";
@@ -70,7 +71,8 @@ function App() {
         </div>
         <div className="section1">
           <img className="title" src={img9} alt="" />
-          <img className="desc" src={img10} alt="" />
+          <img className="desc" src={img22} alt="" />
+          <img className="desc max-80" src={img10} alt="" />
         </div>
         <div className="section1">
           <img className="title" src={img11} alt="" />
