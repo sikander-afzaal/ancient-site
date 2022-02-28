@@ -46,7 +46,7 @@ function App() {
           </a>
         </div>
         <div className="right-navbar">
-          <button className="connect">Mint</button>
+          <button className="mint">Mint</button>
         </div>
       </div>
       <img src={side} alt="" className="absolute" />
