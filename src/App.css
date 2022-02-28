@@ -5,8 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-  overflow-y: scroll;
   position: relative;
+  overflow-y: visible;
+  width: 100%;
 }
 .container {
   display: flex;
@@ -14,61 +15,86 @@
   align-items: center;
   padding-top: 6rem;
   gap: 6rem;
-  width: 95%;
+  width: 100%;
   flex-direction: column;
 }
 .absolute {
   right: 0;
-  top: 5%;
+  top: 2%;
   position: absolute;
   max-width: 30%;
 }
 .absolute2 {
   right: 0;
-  top: 64%;
+  top: 22%;
   position: absolute;
-  max-width: 14%;
+  max-width: 20%;
+}
+.absolute3 {
+  right: 0;
+  top: 40%;
+  position: absolute;
+  max-width: 27%;
+}
+.absolute4 {
+  right: -7%;
+  top: 61%;
+  position: absolute;
+  max-width: 38%;
+}
+.absolute5 {
+  right: 0%;
+  top: 76%;
+  position: absolute;
+  max-width: 27%;
+}
+.absolute6 {
+  max-width: 36%;
+  margin-top: -6rem;
 }
 .header {
   object-fit: contain;
   max-width: 50%;
+  margin-bottom: 6rem;
 }
 .section1 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 .title {
-  max-width: 50%;
+  align-self: center;
+  max-width: 35%;
   object-fit: contain;
   margin-bottom: 2rem;
 }
+.smaller {
+  max-width: 20%;
+}
 .desc {
   margin: 0.5rem 0rem;
-  max-width: 50%;
+  max-width: 70%;
   object-fit: contain;
+  padding-left: 6rem;
 }
-@media screen and (max-width: 1093px) {
-  .title {
-    max-width: 80%;
-  }
-  .desc {
-    margin: 0.5rem 0rem;
-    max-width: 80%;
-    object-fit: contain;
-  }
-  .absolute2 {
-    right: 0;
-    top: 60%;
-    position: absolute;
-    max-width: 15%;
+.max-50 {
+  max-width: 50%;
+}
+@media screen and (max-width: 1153px) {
+  .header {
+    margin-bottom: 1rem;
   }
 }
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 835px) {
   .absolute {
+    top: 4%;
+  }
+}
+@media screen and (max-width: 761px) {
+  .absolute {
+    top: 6%;
     max-width: 25%;
-    top: 0%;
   }
   .header {
     max-width: 70%;
@@ -78,16 +104,75 @@
     gap: 3rem;
   }
   .title {
-    max-width: 95%;
+    max-width: 40%;
   }
   .desc {
-    max-width: 95%;
+    max-width: 80%;
     object-fit: contain;
+    padding-left: 3rem;
+  }
+  .max-50 {
+    max-width: 60%;
   }
   .absolute2 {
     right: 0;
-    top: 68%;
+    top: 23%;
     position: absolute;
     max-width: 15%;
+  }
+  .absolute3 {
+    top: 43%;
+  }
+  .absolute4 {
+    display: none;
+  }
+  .absolute5 {
+    right: 0%;
+    top: 69%;
+    position: absolute;
+    max-width: 17%;
+  }
+  .absolute6 {
+    margin-top: -2rem;
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 531px) {
+  .header {
+    max-width: 70%;
+  }
+  .container {
+    width: 100%;
+    gap: 3rem;
+  }
+  .title {
+    max-width: 40%;
+    margin-bottom: 1rem;
+  }
+  .desc {
+    max-width: 90%;
+    object-fit: contain;
+    padding-left: 1rem;
+  }
+  .max-50 {
+    max-width: 80%;
+  }
+  .absolute2,
+  .absolute5 {
+    display: none;
+  }
+  .absolute3 {
+    top: 46%;
+    max-width: 25%;
+  }
+  .absolute6 {
+    margin-top: -2rem;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 497px) {
+  .absolute {
+    top: 7%;
+    max-width: 30%;
   }
 }
