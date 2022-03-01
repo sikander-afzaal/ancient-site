@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Mint.css";
 function Mint() {
-  const [total, setTotal] = useState(0);
+  const [total, setTotal] = useState(1);
   return (
     <div className="mint-div">
       <div className="mint-box">
@@ -25,7 +25,7 @@ function Mint() {
             <p className="num">{total}</p>
             <button
               onClick={() => {
-                if (total > 0) {
+                if (total > 1) {
                   setTotal((prev) => prev - 1);
                 }
               }}

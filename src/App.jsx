@@ -93,7 +93,7 @@ function App() {
                 <img className="desc" src={img22} alt="" />
                 <img className="desc max-80" src={img10} alt="" />
               </div>
-              <div className="section1">
+              <div className="section1 margin-top">
                 <img className="title" src={img11} alt="" />
                 <img className="desc max-50" src={img12} alt="" />
                 <img className="desc adjust" src={img13} alt="" />

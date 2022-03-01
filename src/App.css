@@ -129,6 +129,9 @@
 .max-80 {
   max-width: 65%;
 }
+.margin-top {
+  margin-top: 2.5rem;
+}
 .team {
   display: flex;
   justify-content: center;
@@ -252,7 +255,7 @@
 }
 @media screen and (max-width: 761px) {
   .max-80 {
-    max-width: 65% !important;
+    max-width: 74% !important;
   }
 
   .absolute {
@@ -330,6 +333,9 @@
   }
 }
 @media screen and (max-width: 531px) {
+  .max-80 {
+    max-width: 82% !important;
+  }
   .max-52 {
     max-width: 54% !important;
   }
@@ -382,6 +388,9 @@
   }
   .right-navbar {
     padding-right: 1rem;
+  }
+  .margin-top {
+    margin-top: 0rem;
   }
 }
 @media screen and (max-width: 497px) {
