@@ -132,6 +132,9 @@
 .margin-top {
   margin-top: 2.5rem;
 }
+.margin-bot {
+  margin-bottom: 1rem;
+}
 .team {
   display: flex;
   justify-content: center;
@@ -403,6 +406,9 @@
   .absolute3 {
     top: 49%;
     max-width: 23%;
+  }
+  .margin-bot {
+    margin-bottom: 0.25rem;
   }
 }
 @media screen and (max-width: 447px) {

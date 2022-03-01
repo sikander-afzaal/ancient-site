@@ -90,7 +90,7 @@ function App() {
               </div>
               <div className="section1">
                 <img className="title" src={img9} alt="" />
-                <img className="desc" src={img22} alt="" />
+                <img className="desc margin-bot" src={img22} alt="" />
                 <img className="desc max-80" src={img10} alt="" />
               </div>
               <div className="section1 margin-top">
