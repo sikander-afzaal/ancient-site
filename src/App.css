@@ -112,7 +112,7 @@
   margin-bottom: 2rem;
 }
 .adjust {
-  max-width: 63%;
+  max-width: 55% !important;
 }
 .desc {
   margin: 0.5rem 0rem;
@@ -177,7 +177,7 @@
 }
 @media screen and (max-width: 1215px) {
   .adjust {
-    max-width: 63% !important;
+    max-width: 55% !important;
   }
   .absolute4 {
     top: 59%;
@@ -190,9 +190,6 @@
   }
 }
 @media screen and (max-width: 1153px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .header {
     margin-bottom: 1rem;
     max-width: 60%;
@@ -208,9 +205,6 @@
   }
 }
 @media screen and (max-width: 1029px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .absolute3 {
     top: 43.5%;
   }
@@ -226,9 +220,6 @@
   }
 }
 @media screen and (max-width: 939px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .absolute5 {
     right: 0%;
     top: 76%;
@@ -242,9 +233,6 @@
   }
 }
 @media screen and (max-width: 835px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .max-80 {
     max-width: 65%;
   }
@@ -263,9 +251,6 @@
   }
 }
 @media screen and (max-width: 761px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .max-80 {
     max-width: 65% !important;
   }
@@ -320,9 +305,6 @@
   }
 }
 @media screen and (max-width: 623px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .absolute {
     top: 7%;
   }
@@ -340,9 +322,6 @@
   }
 }
 @media screen and (max-width: 589px) {
-  .adjust {
-    max-width: 63% !important;
-  }
   .absolute4 {
     top: 61%;
   }
@@ -378,7 +357,7 @@
     max-width: 51%;
   }
   .adjust {
-    max-width: 71% !important;
+    max-width: 62% !important;
   }
   .absolute2,
   .absolute5 {
