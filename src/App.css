@@ -130,7 +130,56 @@
 .max-80 {
   max-width: 65%;
 }
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  font-family: "Special Elite", cursive;
+  padding: 3rem 0rem;
+}
+.team h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.team-box {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.team-img {
+  margin-bottom: 0.75rem;
+}
+.team-img img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.name {
+  font-size: 1.2rem;
+  margin-bottom: 0.45rem;
+}
+.position {
+  width: max-content;
+  font-size: 1.1rem;
+}
 @media screen and (max-width: 1215px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .absolute4 {
     top: 61%;
   }
@@ -142,6 +191,9 @@
   }
 }
 @media screen and (max-width: 1153px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .header {
     margin-bottom: 1rem;
     max-width: 60%;
@@ -157,30 +209,43 @@
   }
 }
 @media screen and (max-width: 1029px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .absolute3 {
     top: 43.5%;
   }
+
   .max-80 {
     max-width: 65%;
   }
   .max-52 {
-    max-width: 53% !important;
+    max-width: 46% !important;
   }
   .absolute2 {
     top: 24%;
   }
 }
 @media screen and (max-width: 939px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .absolute5 {
     right: 0%;
     top: 76%;
     max-width: 25%;
   }
   .max-52 {
-    max-width: 53% !important;
+    max-width: 46% !important;
+  }
+  .wrapper {
+    gap: 3rem;
   }
 }
 @media screen and (max-width: 835px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .max-80 {
     max-width: 65%;
   }
@@ -195,13 +260,17 @@
     top: 63%;
   }
   .max-52 {
-    max-width: 53% !important;
+    max-width: 46% !important;
   }
 }
 @media screen and (max-width: 761px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .max-80 {
     max-width: 65% !important;
   }
+
   .absolute {
     top: 9%;
     max-width: 25%;
@@ -221,8 +290,9 @@
     object-fit: contain;
     padding-left: 3rem;
   }
+
   .max-50 {
-    max-width: 60%;
+    max-width: 43%;
   }
   .absolute2 {
     right: 0;
@@ -247,28 +317,40 @@
     max-width: 40%;
   }
   .max-52 {
-    max-width: 53% !important;
+    max-width: 46% !important;
   }
 }
 @media screen and (max-width: 623px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .absolute3 {
     top: 44%;
   }
   .max-52 {
     max-width: 53% !important;
   }
+  .wrapper {
+    flex-direction: column;
+  }
+  .team-box {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 589px) {
+  .adjust {
+    max-width: 63% !important;
+  }
   .absolute4 {
     top: 63%;
   }
   .max-52 {
-    max-width: 53% !important;
+    max-width: 46% !important;
   }
 }
 @media screen and (max-width: 531px) {
   .max-52 {
-    max-width: 64% !important;
+    max-width: 54% !important;
   }
   .header {
     max-width: 56%;
@@ -291,15 +373,18 @@
     padding-left: 1rem;
   }
   .max-50 {
-    max-width: 60%;
+    max-width: 51%;
   }
   .adjust {
-    max-width: 82% !important;
+    max-width: 71% !important;
   }
   .absolute2,
-  .absolute5,
-  .absolute4 {
+  .absolute5 {
     display: none;
+  }
+  .absolute4 {
+    top: 60%;
+    max-width: 36%;
   }
 
   .absolute3 {
@@ -330,9 +415,17 @@
     max-width: 23%;
   }
 }
+@media screen and (max-width: 447px) {
+  .absolute4 {
+    top: 61%;
+  }
+}
 @media screen and (max-width: 418px) {
   .absolute {
     top: 11%;
     max-width: 30%;
+  }
+  .absolute4 {
+    top: 62%;
   }
 }
