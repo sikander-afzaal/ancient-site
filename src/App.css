@@ -19,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 4rem;
   background-color: black;
   height: 70px;
 }
@@ -46,7 +45,7 @@
   background-color: transparent;
   transition: all 0.35s ease-in-out;
 }
-.connect:hover {
+.mint:hover {
   background-color: white;
   color: black;
   cursor: pointer;
@@ -80,7 +79,7 @@
 }
 .absolute4 {
   right: 0%;
-  top: 59%;
+  top: 57%;
   position: absolute;
   max-width: 38%;
 }
@@ -181,7 +180,7 @@
     max-width: 63% !important;
   }
   .absolute4 {
-    top: 61%;
+    top: 59%;
   }
   .absolute3 {
     top: 42%;
@@ -202,7 +201,7 @@
     top: 5%;
   }
   .absolute4 {
-    top: 62%;
+    top: 61%;
   }
   .absolute3 {
     top: 42%;
@@ -272,7 +271,7 @@
   }
 
   .absolute {
-    top: 9%;
+    top: 6%;
     max-width: 25%;
   }
   .header {
@@ -296,7 +295,7 @@
   }
   .absolute2 {
     right: 0;
-    top: 28%;
+    top: 25%;
     position: absolute;
     max-width: 15%;
   }
@@ -324,6 +323,9 @@
   .adjust {
     max-width: 63% !important;
   }
+  .absolute {
+    top: 7%;
+  }
   .absolute3 {
     top: 44%;
   }
@@ -342,7 +344,7 @@
     max-width: 63% !important;
   }
   .absolute4 {
-    top: 63%;
+    top: 61%;
   }
   .max-52 {
     max-width: 46% !important;
@@ -405,7 +407,7 @@
 }
 @media screen and (max-width: 497px) {
   .absolute {
-    top: 9.5%;
+    top: 6%;
     max-width: 30%;
   }
 }
@@ -422,10 +424,11 @@
 }
 @media screen and (max-width: 418px) {
   .absolute {
-    top: 11%;
+    top: 7%;
     max-width: 30%;
   }
   .absolute4 {
-    top: 62%;
+    top: 60%;
+    max-width: 40%;
   }
 }

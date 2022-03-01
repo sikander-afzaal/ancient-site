@@ -1,0 +1,61 @@
+.mint-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../Assets/Background.png");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mint-div * {
+  margin: 0;
+}
+.mint-box {
+  font-family: "Special Elite", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.8);
+  gap: 30px;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+  backdrop-filter: blur(16px);
+}
+.mint-box h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.calc-div {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.left-calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.func {
+  font-size: 1.8rem;
+  cursor: pointer;
+  background: transparent;
+  font-family: "Special Elite", cursive;
+  border: none;
+}
+.func::selection {
+  background-color: transparent;
+}
+.num {
+  font-size: 2rem;
+}
+.calc-div p:last-of-type {
+  font-size: 2.2rem;
+}
+.total {
+  font-size: 1.6rem;
+}
